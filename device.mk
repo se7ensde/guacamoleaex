@@ -12,6 +12,8 @@ $(call inherit-product, vendor/oneplus/guacamole/guacamole-vendor.mk)
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_props.mk
 
+PRODUCT_CHARACTERISTICS := nosdcard
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
