@@ -14,6 +14,9 @@ $(call inherit-product, device/oneplus/guacamole/device.mk)
 # Inherit some common Evolution-X stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Official
+CUSTOM_BUILD_TYPE := OFFICIAL
+
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1440
 
