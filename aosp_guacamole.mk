@@ -18,6 +18,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 CUSTOM_BUILD_TYPE := OFFICIAL
 
 # Boot Animation
+TARGET_BOOT_ANIMATION_RES_EVO := true
 TARGET_BOOT_ANIMATION_RES := 1440
 
 # Gapps
