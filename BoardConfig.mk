@@ -15,7 +15,7 @@ TARGET_OTA_ASSERT_DEVICE := OnePlus7Pro
 TARGET_SCREEN_DENSITY := 560
 
 # Kernel
-TARGET_KERNEL_CONFIG := crdroid_defconfig
+TARGET_KERNEL_CONFIG := kronic_defconfig
 
 # Vendor init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_guacamole
